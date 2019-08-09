@@ -144,3 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Navigation */
+.sticky{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.sticky nav{
+    display: flex;
+    flex-direction: left;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    text-decoration: none;
+    color: black;
+}
