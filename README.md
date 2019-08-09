@@ -1,3 +1,5 @@
+Mike Nguyen
+
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
@@ -34,13 +36,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the way of using the most appropriate tags in labeling content in order to access and read the HTML code easier, especially if another developer would inspect the code.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+To put it simply, display:block is a property that an element acquires which breaks the line(or starts a new line on the web page) when another element is present next to it. display:inline, on the other hand, is the property that allows the element to stay on the same line with other elements inside a given block.
 
 3. What are the 4 areas of the box model?
 
+1. Content - What is seen on the webpage
+2. Padding - The space between the content and border
+3. Border - The size of the box that contains both content and padding
+4. Margin -  The space given to the box model to space itself among other elements 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This aligns the items of the flexbox in the center of cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+git is responsible for version control and source control. It allows a team of developers to work on projects without miscommunication and overlapping one another's code. It allows the use of branches which eliminates the possibility of destroying the flow of the entire code of a project in case of errors. Git also tracks the progress and the codes deleted, added, etc.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
