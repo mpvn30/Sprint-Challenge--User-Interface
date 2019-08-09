@@ -204,3 +204,50 @@ nav a{
 .middle-content .boxes .box10{
     background: dodgerblue;
 }
+
+/* About page */
+/* top content */
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* middle content */
+.middle-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+}
+
+.column-one, .column-two{
+    border-bottom: 1px dashed black;
+    width: 370px;
+    padding: 30px 0;
+}
+
+.middle-wrapper a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 2px black solid;
+    width: 150px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+.column-one img, .column-two img{
+    padding-bottom: 20px;
+}
+
+/* bottom-content */
+
+.last-content{
+    padding: 50px 20px;
+}
