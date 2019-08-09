@@ -145,10 +145,12 @@ footer nav a {
     text-decoration: none;
 }
 
-/* Navigation */
+/* Home Navigation */
 .sticky{
     display: flex;
-    padding-bottom: 20px;
+    width: 800px;
+    padding: 20px 0;
+    margin: 0 auto;
 }
 
 .sticky nav{
@@ -165,4 +167,40 @@ nav a{
     width: 20%;
     text-decoration: none;
     color: black;
+}
+
+/* middle-content */
+.text-container{
+    margin-top: 25px;
+}
+
+.middle-content .boxes .box1{
+    background: teal;
+}
+.middle-content .boxes .box2{
+    background: gold;
+}
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+.middle-content .boxes .box4{
+    background: coral;
+}
+.middle-content .boxes .box5{
+    background: crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+.middle-content .boxes .box9{
+    background: indigo;
+}
+.middle-content .boxes .box10{
+    background: dodgerblue;
 }
